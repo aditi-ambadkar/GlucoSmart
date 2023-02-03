@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="@font/bold"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, \nAditi Ambadkar" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/aditi" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#ECECEC"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+
+        <EditText
+            android:background="@drawable/rounded_bg"
+            android:layout_weight="1"
+            android:backgroundTint="@color/tint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Search" />
+
+
+        <ImageView
+            android:padding="2dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/search_line" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:backgroundTint="@color/tint"
+            android:padding="10dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nurse_line" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:padding="10dp"
+            android:backgroundTint="@color/tint"
+            android:background="@drawable/rounded_bg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nurse_line" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:backgroundTint="@color/tint"
+            android:padding="10dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nurse_line" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:backgroundTint="@color/tint"
+            android:padding="10dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/nurse_line" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glucose Reading"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E6B7B"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg">
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Reading Now"
+            android:textColor="@color/white"
+            android:fontFamily="@font/regular"
+            android:padding="30dp"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:tint="@color/tint" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Check Up"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1E6B7B"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg">
+        <TextView
+            android:textSize="18dp"
+            android:backgroundTint="#2EBFDF"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12th\nFeb"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bold"
+            android:padding="20dp"/>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check your Glucose"
+            android:textColor="@color/white"
+            android:fontFamily="@font/regular"
+            android:padding="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
