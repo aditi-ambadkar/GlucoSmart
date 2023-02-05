@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".HomeActivity"
+    android:background="@color/white"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -81,6 +82,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:tint="#DDDDDD"
             android:backgroundTint="@color/tint"
             android:padding="10dp"
             android:background="@drawable/rounded_bg"
@@ -93,6 +95,7 @@
             android:layout_weight="1"/>
 
         <ImageView
+            android:tint="#DDDDDD"
             android:padding="10dp"
             android:backgroundTint="@color/tint"
             android:background="@drawable/rounded_bg"
@@ -104,6 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <ImageView
+            android:tint="#DDDDDD"
             android:backgroundTint="@color/tint"
             android:padding="10dp"
             android:background="@drawable/rounded_bg"
@@ -116,6 +120,7 @@
             android:layout_weight="1"/>
 
         <ImageView
+            android:tint="#DDDDDD"
             android:backgroundTint="@color/tint"
             android:padding="10dp"
             android:background="@drawable/rounded_bg"
@@ -136,6 +141,7 @@
         android:padding="10dp" />
 
     <LinearLayout
+        android:id="@+id/btn_reading"
         android:layout_marginTop="10dp"
         android:backgroundTint="#1E6B7B"
         android:layout_marginStart="10dp"
